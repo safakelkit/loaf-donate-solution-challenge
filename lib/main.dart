@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'screens/card_page/card_page.dart';
 
 void main(){
-  runApp(Donation());
+  runApp(const Donation());
 }
 
 class Donation extends StatelessWidget {
@@ -10,7 +10,7 @@ class Donation extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Donation',
       home: CardPage()
     );
