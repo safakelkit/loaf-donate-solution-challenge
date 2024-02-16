@@ -24,7 +24,7 @@ class _CardPageState extends State<CardPage> {
             style: TextStyle(
               color: Colors.pink,
               fontWeight: FontWeight.w900,
-              fontSize: 30.0,
+              fontSize: 32.0,
               height: -0.4,
             ),
           ),
