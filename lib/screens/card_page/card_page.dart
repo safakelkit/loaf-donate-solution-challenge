@@ -125,7 +125,8 @@ class _CardPageState extends State<CardPage> {
                     ],
                     controller: donationAmountbyUser,
                     decoration: InputDecoration(
-                      hintText: "Donation Amount",
+                      hintText: "Bread Amount You Want to Donate",
+                      hintStyle: const TextStyle(fontSize: 14.5),
                       enabledBorder: OutlineInputBorder(
                         borderSide: const BorderSide(color: Colors.grey),
                         borderRadius: BorderRadius.circular(20),
@@ -135,6 +136,9 @@ class _CardPageState extends State<CardPage> {
                         child: Icon(Icons.radio_button_checked),
                       )
                     ),
+                  ),
+                  const Text(
+                    'Based on fixed price (1 Bread = 2.50\$)'
                   ),
 
                   const SizedBox(height: 50.0,),
