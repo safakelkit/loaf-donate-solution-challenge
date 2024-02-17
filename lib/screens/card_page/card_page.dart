@@ -9,6 +9,9 @@ class CardPage extends StatefulWidget {
   State<CardPage> createState() => _CardPageState();
 }
 
+DonationAmount breadPrice = DonationAmount();
+int result = 0;
+
 class _CardPageState extends State<CardPage> {
   
   TextEditingController donationAmountbyUser = TextEditingController();
@@ -137,23 +140,29 @@ class _CardPageState extends State<CardPage> {
                       )
                     ),
                   ),
+                  const SizedBox(height: 6.0,),
                   const Text(
-                    'Based on fixed price (1 Bread = 2.50\$)'
+                    'Based on fixed price (1 Bread = 2.50\$)',
+                    style: TextStyle(
+                      fontSize: 13.0
+                    ),
                   ),
-
                   const SizedBox(height: 50.0,),
 
                   ElevatedButton(
                     onPressed: (){
                       String donationAmount = donationAmountbyUser.text.trim();
                       if(donationAmount.isNotEmpty){
+                        int breadCount = int.parse(donationAmount);
+                        double totalAmount = breadPrice.multiply(breadCount);
+
                         showDialog(
                           context: context,
                           builder: (BuildContext context){
                             return AlertDialog(
                               title: const Text("Donation Successful!"),
                               content: Text(
-                                "The Donation Amount is: $donationAmount\$\nThanks for Donation!",
+                                "The Donation Amount is: $totalAmount\$\nThanks for Donation!",
                                 style: const TextStyle(
                                   fontSize: 17.0,
                                 ),
@@ -248,3 +257,10 @@ class DateNumberInputFormatter extends TextInputFormatter{
   }
 }
 
+class DonationAmount {
+  double multiply(int breadCount) {
+    const double breadPrice = 2.50;
+    double result = breadCount * breadPrice;
+    return result;
+  }
+}
