@@ -21,7 +21,8 @@ class _CardPageState extends State<CardPage> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.black87,
-        title: const Center(
+        title: const Align(
+          alignment: Alignment(-0.32, 0.0),
           child: Text(
             "Donation",
             style: TextStyle(

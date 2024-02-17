@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/card_page/card_page.dart';
+import 'package:sc/screens/login_register_pages/login.dart';
 
 void main(){
   runApp(const Donation());
@@ -10,9 +10,8 @@ class Donation extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      title: 'Donation',
-      home: CardPage()
+    return MaterialApp(
+      home: Login()
     );
   }
 }
