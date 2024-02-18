@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sc/screens/card_page/card_page.dart';
 
 class SignUp extends StatefulWidget {
   @override
@@ -96,7 +97,10 @@ class _MyAppState extends State<SignUp> {
   saveButton() {
     return ElevatedButton(
         onPressed: () {
-  
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => CardPage())
+          );
         },
         child: Text("SIGN UP")
     );
