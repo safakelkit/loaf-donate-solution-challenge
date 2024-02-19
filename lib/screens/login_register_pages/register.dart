@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sc/screens/card_page/card_page.dart';
+import 'package:sc/screens/login_register_pages/login.dart';
+
 
 class SignUp extends StatefulWidget {
   @override
@@ -45,11 +46,23 @@ class _MyAppState extends State<SignUp> {
             surName(),
             mail(),
             password(),
-            SizedBox(height: 50),
-            Text("User Type"),
-            userType(),
-            SizedBox(height: 50),
-            saveButton(),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Column(
+                  children: [
+                    SizedBox(height: 20.0,),
+                    Text("User Type"),
+                    userType(),
+                  ],
+                ),
+                SizedBox(width: 30.0,),
+                Align(
+                  child: saveButton(),
+                ),
+              ],
+            ),
+            
           ],
         ),
       ),
@@ -99,7 +112,7 @@ class _MyAppState extends State<SignUp> {
         onPressed: () {
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => CardPage())
+            MaterialPageRoute(builder: (context) => Login())
           );
         },
         child: Text("SIGN UP")

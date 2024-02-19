@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '/screens/login_register_pages/register.dart';
-import '/screens/card_page/card_page.dart';
+import '/screens/menu_page/menu_page.dart';
 
 class Login extends StatefulWidget {
   @override
@@ -39,9 +39,11 @@ class _MyAppState extends State<Login> {
         padding: EdgeInsets.all(30.0),
         child: Column(
           children: <Widget>[
+            const SizedBox(height: 40.0),
             userName(),
+            SizedBox(height: 18.0,),
             password(),
-            SizedBox(height: 100),
+            SizedBox(height: 70.0),
             saveButton(),
             SizedBox(height: 16.0,),
             toRegister(),
@@ -53,14 +55,28 @@ class _MyAppState extends State<Login> {
 
   userName() {
     return TextField(
-      decoration: InputDecoration(labelText: "User Name"),
+      decoration: 
+        InputDecoration(
+          labelText: "User Name",
+          enabledBorder: OutlineInputBorder(
+            borderSide: const BorderSide(color: Colors.grey),
+            borderRadius: BorderRadius.circular(20.0),
+          )
+        ),
       controller: userNameText,
     );
   }
 
   password() {
     return TextField(
-      decoration: InputDecoration(labelText: "Password"),
+      decoration: 
+        InputDecoration(
+          labelText: "Password",
+          enabledBorder: OutlineInputBorder(
+            borderSide: const BorderSide(color: Colors.grey),
+            borderRadius: BorderRadius.circular(20.0),
+          )
+        ),
       controller: passwordText,
     );
   }
@@ -70,7 +86,7 @@ class _MyAppState extends State<Login> {
         onPressed: () {
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => CardPage())
+            MaterialPageRoute(builder: (context) => MenuPage())
           );
         },
         child: Text("LOGIN")
