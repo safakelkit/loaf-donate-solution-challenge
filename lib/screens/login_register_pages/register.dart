@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sc/screens/login_register_pages/login.dart';
-
+import 'package:sc/screens/menu_page/menu_page.dart';
 
 class SignUp extends StatefulWidget {
   @override
@@ -24,7 +23,7 @@ class _MyAppState extends State<SignUp> {
           child: Text(
             "Sign Up",
             style: TextStyle(
-              color: Colors.pink,
+              color: Colors.white,
               fontWeight: FontWeight.w900,
               fontSize: 32.0,
               height: -0.4,
@@ -112,7 +111,7 @@ class _MyAppState extends State<SignUp> {
         onPressed: () {
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => Login())
+            MaterialPageRoute(builder: (context) => MenuPage())
           );
         },
         child: Text("SIGN UP")
