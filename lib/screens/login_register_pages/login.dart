@@ -21,7 +21,7 @@ class _MyAppState extends State<Login> {
           child: Text(
             "Login",
             style: TextStyle(
-              color: Colors.pink,
+              color: Colors.white,
               fontWeight: FontWeight.w900,
               fontSize: 32.0,
               height: -0.4,

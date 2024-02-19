@@ -26,7 +26,7 @@ class _CardPageState extends State<CardPage> {
           child: Text(
             "Donation",
             style: TextStyle(
-              color: Colors.pink,
+              color: Colors.white,
               fontWeight: FontWeight.w900,
               fontSize: 32.0,
               height: -0.4,
