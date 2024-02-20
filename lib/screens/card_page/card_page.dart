@@ -148,7 +148,7 @@ class _CardPageState extends State<CardPage> {
                       fontSize: 13.0
                     ),
                   ),
-                  const SizedBox(height: 50.0,),
+                  const SizedBox(height: 40.0,),
 
                   ElevatedButton(
                     onPressed: (){
