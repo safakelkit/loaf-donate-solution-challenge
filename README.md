@@ -3,7 +3,7 @@
  # <h1 align="center">Loaf Donate - SOLUTION CHALLENGE 2024</h1>
 
 
- ## . Introduction
+ ##  Introduction
 
  The tragic situation of people around the world who cannot find bread, a staple food, is leading to hunger and malnutrition. Bread, a daily necessity for many of us, has become a luxury in some regions, with painful consequences.
 
@@ -22,17 +22,17 @@ We developed our app using Flutter framework and Material Design. In the future,
 
 We plan to store user data in the Firebase database in order to securely manage the transactions carried out through the application. This way, users' personal information will be protected and they will be able to interact on a secure platform.
 
- ## . Mobile App Installation
+ ##  Mobile App Installation
  
- ## . Mobile App Photos
+ ##  Mobile App Photos
 ![Adsız tasarım (2)](https://github.com/safakelkit/solutionChallenge/assets/127013506/94c6ef7e-098a-4ab7-a81e-10e3cca5bef8)
 
 
 
- ## . About Technol[Uploading menu.pdf…]()
+ ##  About Technol[Uploading menu.pdf…]()
  ![SC (1)](https://github.com/safakelkit/solutionChallenge/assets/127013506/4e4071ad-8d2c-4f9f-bca4-d62991d203c2)
 
- ## . Our Team
+ ##  Our Team
  - [Safa KELKİT](https://github.com/safakelkit)
  - [Elif KOŞAR](https://github.com/Elf-kosar)
  - [Hasan TÜRK]
