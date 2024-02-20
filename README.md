@@ -1,5 +1,7 @@
 
-![Adsız tasarım (1)](https://github.com/safakelkit/solutionChallenge/assets/127013506/0e9bf2f3-530a-4846-8fe4-b6ac20e5447b)
+![Adsız tasarım (3)](https://github.com/safakelkit/solutionChallenge/assets/127013506/ff6c7217-c444-4de0-8717-8c7644957fed)
+
+
  # <h1 align="center">Loaf Donate - SOLUTION CHALLENGE 2024</h1>
 
 
