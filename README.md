@@ -24,7 +24,8 @@ We developed our app using Flutter framework and Material Design. In the future,
 
 We plan to store user data in the Firebase database in order to securely manage the transactions carried out through the application. This way, users' personal information will be protected and they will be able to interact on a secure platform.
 
- ##  Mobile App Installation
+ ##  Mobile App YouTube Link
+ https://youtu.be/xkVEamB8ah0?feature=shared
  
  ##  Mobile App Photos
 ![Adsız tasarım (2)](https://github.com/safakelkit/solutionChallenge/assets/127013506/94c6ef7e-098a-4ab7-a81e-10e3cca5bef8)
