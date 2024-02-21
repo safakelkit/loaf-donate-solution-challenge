@@ -37,4 +37,4 @@ We plan to store user data in the Firebase database in order to securely manage 
  ##  Our Team
  - [Safa KELKİT](https://github.com/safakelkit)
  - [Elif KOŞAR](https://github.com/Elf-kosar)
- - [Hasan TÜRK]
+ - [Hasan TÜRK](https://github.com/Hasan-Trk)
